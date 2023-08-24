@@ -9,7 +9,9 @@ let promise2 = new Promise((resolve, reject) => {
 	reject("Sukesh is a bad boy");
 })
 let promise3 = new Promise((resolve, reject) => {
-	resolve("Sukesh, You are going to next ruler of the world");
+	setTimeout(() => {
+		resolve("Sukesh, You are going to next ruler of the world");
+	}, 1000);
 })
 let promise4 = new Promise((resolve, reject) => {
 	resolve("Sukesh, You are going to next ruler of the world");
